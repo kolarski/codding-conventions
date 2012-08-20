@@ -113,7 +113,7 @@ More on the topic:
 * [JavaScript Strict Mode](http://javascriptweblog.wordpress.com/2011/05/03/javascript-strict-mode/)  
 * [It's time to start using JavaScript Strict mode](http://www.nczonline.net/blog/2012/03/13/its-time-to-start-using-javascript-strict-mode/)  
 * [JavaScript: Use strict](http://bdryanovski.github.com/blog/2011/11/20/javascript-use-strict/)  
-* [MSDN - Strict mode](http://msdn.microsoft.com/en-us/library/br230269(v=vs.94).aspx)  
+* [MSDN - Strict mode](http://msdn.microsoft.com/en-us/library/br230269.aspx)  
 * [Mozilla - Strict mode](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode?redirectlocale=en-US&redirectslug=JavaScript%2FStrict_mode)  
 
 ### Void, Variable, Classes, Consts, Objects, Function declarations

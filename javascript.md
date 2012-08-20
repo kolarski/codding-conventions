@@ -415,6 +415,10 @@ to start thinking about new editor.
 
 ### Documentation and comments
 
+Documentation section is not ready.
+
+Motivation talk about why we need documentation. [A documentation talk](http://zachholman.com/talk/a-documentation-talk)
+
 Single line comments
 
 ``` javascript

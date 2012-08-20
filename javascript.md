@@ -145,7 +145,7 @@ Class names (if they be called this way) should be capitalized using upper camel
 
 ``` javascript
 // Good
-function UserModel() {
+var UserModel = function() {
     // code
 }
 
@@ -358,7 +358,7 @@ setTimeout(function() {
     user.connected( someCoolFunction );
 }, 1000);
 
-function someCoolFunction() { 
+var someCoolFunction = function () { 
     console.log('Connected');
 }
 

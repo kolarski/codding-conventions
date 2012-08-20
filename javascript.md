@@ -413,3 +413,79 @@ Use [JSHint](http://www.jshint.com/) to validate your code insted ot [JSLint](ht
 All real code editor will support it. But if any chance that your editor miss that feature. Now is the time 
 to start thinking about new editor.
 
+### Documentation and comments
+
+Single line comments
+
+``` javascript
+// Good
+
+// This a comment for the function
+var awesome = function() {
+    // code ...
+}
+
+// Give the dog a name
+var dog = 'Rorger';
+
+
+// Bad
+
+var awesome = function() { // This a comment for the function
+    // code ...
+}
+
+var awesome = function() {
+    // This a comment for the function
+    // code ...
+}
+
+var dog = 'Roger'; // Give the dog a name
+
+var dog = 'Roger';
+// Give the dog a name
+```
+
+Multiline comments
+
+``` javascript
+// Good
+
+/**
+ * Function: subtract()
+ */
+
+var subtract = function(a, b) {
+    // code...
+}
+
+// Bad
+
+/* Function: subtract() */
+
+var subtract = function(a,b) {
+    // code...
+}
+```
+
+It's nice to leave some tags into the comments.
+
+Rules to create and to be valid tag.
+* Must be short no more than 80/180 characters (1 line max 2 lines).  
+* There must be a space after `//`.  
+* Every tag must start with `@`.  
+* After the tag body there must be `:`. Example: `// @body: text`
+
+Here are some tags that you could use for leaving messages for your feature self.
+``` javascript
+// Good
+
+// @todo: By milk and take the trash.
+
+// Bad
+
+// ToDo: By milk and take the strash.
+//Todo By milk and take the trash.
+//!todo by milk and take the trash.
+```
+

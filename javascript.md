@@ -90,15 +90,15 @@ if (something){
 
 ### Void, Variable, Classes, Consts, Objects, Function declarations
 
-Use void 0 instead of undefined, becouse undefined could have been redefined ( Who will do that? ).
+Use `void 0` instead of `undefined`, becouse `undefined` could have been redefined ( Who will do that? ).
 
-Avoid global vars where you can. If you use them, specify it explicity.
+Avoid `global` vars where you can. If you use them, specify it explicity.
 
 ``` javascript
 window.globalVar = 'something';
 ```
 
-Declare one variable per var statement, it makes it easier to re-order the lines and comment.
+Declare one variable per `var` statement, it makes it easier to re-order the lines and comment.
 
 ``` javascript
 // Good

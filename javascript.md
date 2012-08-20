@@ -38,6 +38,9 @@ More about this topic:
 * [An Open Letter to JavaScript Leaders Regarding Semicolons](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)
 * [Semicolons, Objectively](http://dailyjs.com/2012/01/19/semicolons/)
 
+But to be like any other library or javascript code. We put semicolons. 
+
+* Don't forget to use put them *
 
 ### Editors
 
@@ -378,3 +381,10 @@ Setters caouse more problems than solve. Getters are not bad, and are more free 
 * Each ; (semicolon) in the control part of a `for` statement should be followed with a space.
 * After `if`, `for`, `while` and any other operation there must be a space.
 * Whitespace should follow every , (comma).
+
+### Code validation.
+
+Use [JSHint](http://www.jshint.com/) to validate your code insted ot [JSLint](http://www.jslint.com/).
+All real code editor will support it. But if any chance that your editor miss that feature. Now is the time 
+to start thinking about new editor.
+

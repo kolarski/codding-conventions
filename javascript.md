@@ -154,6 +154,26 @@ var Lower_Camel_case  = 'something';
 
 ```
 
+String variables some times contain long text use `\` or `+` to split the line no more than 80 characterrs per line.
+
+``` javascript
+// Good
+
+var longString = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt \
+ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper \
+velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero';
+
+var longString = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ' +
+'ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper ' +
+'velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero';
+
+// Bad 
+
+var longString = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ';
+longString += 'ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper ';
+longString += 'velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero';
+```
+
 Boolean variables and functions should always be either `true` or `false`. Don't set it to `0`
 unless it's supposed to be a number.
 

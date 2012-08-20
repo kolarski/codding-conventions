@@ -376,4 +376,5 @@ Setters caouse more problems than solve. Getters are not bad, and are more free 
 
 ### Whitespace
 * Each ; (semicolon) in the control part of a `for` statement should be followed with a space.
+* After `if`, `for`, `while` and any other operation there must be a space.
 * Whitespace should follow every , (comma).

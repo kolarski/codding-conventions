@@ -91,6 +91,31 @@ if (something){
 }
 ```
 
+### Use strict
+
+Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, 
+in a "strict" operating context. This strict context prevents certain actions from being taken and 
+throws more exceptions (generally providing the user with more information and a tapered-down 
+coding experience).
+
+``` javascript
+var imStrict = function (){
+  "use strict";
+  // code...
+}
+```
+
+No new syntax is introduced in order to enable strict mode. This is huge. This means that you can
+turn strict mode on in your scripts - today - and it'll have, at worst, no side effect in old browsers.
+
+More on the topic:
+* [Browser test for Strict Mode Support](http://java-script.limewebs.com/strictMode/test_hosted.html)  
+* [JavaScript Strict Mode](http://javascriptweblog.wordpress.com/2011/05/03/javascript-strict-mode/)  
+* [It's time to start using JavaScript Strict mode](http://www.nczonline.net/blog/2012/03/13/its-time-to-start-using-javascript-strict-mode/)  
+* [JavaScript: Use strict](http://bdryanovski.github.com/blog/2011/11/20/javascript-use-strict/)  
+* [MSDN - Strict mode](http://msdn.microsoft.com/en-us/library/br230269(v=vs.94).aspx)  
+* [Mozilla - Strict mode](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode?redirectlocale=en-US&redirectslug=JavaScript%2FStrict_mode)  
+
 ### Void, Variable, Classes, Consts, Objects, Function declarations
 
 Use `void 0` instead of `undefined`, becouse `undefined` could have been redefined ( Who will do that? ).

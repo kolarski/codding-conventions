@@ -419,6 +419,21 @@ Documentation section is not ready.
 
 Motivation talk about why we need documentation. [A documentation talk](http://zachholman.com/talk/a-documentation-talk)
 
+Comments must start with `//` and there must be *one* space after `//`. Also comments must not be more than 80 character limit
+per line. Comment are sentence. All rules that apply to a english sentence apply also to code comments. Remember that
+someone will read it and will know the difference betwin `can` and `can't`.
+
+``` javascript
+// Good
+
+// This is the comment of the code that I'm working on.
+
+// Bad
+
+//this is the comment of the code that im working on
+```
+
+
 Single line comments
 
 ``` javascript

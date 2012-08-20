@@ -71,7 +71,7 @@ Faster execution time and HTML uses double quotes.
 
 Opening braces go on the same line as the statement.
 
-Also use *one* space before the statement.
+Also use *one* space before and after the statement.
 
 ``` javascript
 // Good 

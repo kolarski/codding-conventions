@@ -40,7 +40,7 @@ More about this topic:
 
 But to be like any other library or javascript code. We put semicolons. 
 
-* Don't forget to use put them *
+*** Don't forget to use them or JSHint will spank you. ***
 
 ### Editors
 

@@ -6,7 +6,8 @@ There is no abstraction so perfect that a human won’t fuck it up at the first 
 But we can try to be better, simpler, to make it easier for our future idiotic selves to figure
 out what we were thinking in our cleverly idiotic brains, and chop the problems into smaller 
 pieces so that our future selves can have some clues to find the maddeningly idiotic bugs we
-stuffed in there."
+stuffed in there."    
+
 -- [Isaac Z. Schlueter](http://blog.izs.me/), author of [npm](http://npmjs.org/)
 
 ### Tabs vs Spaces

@@ -174,6 +174,16 @@ longString += 'ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad mi
 longString += 'velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero';
 ```
 
+Concatenating strings is done by using `+` and adding *one* space before it and *one* after.
+
+``` javascript
+// Good
+var welcomeMessage = 'Welcome to our system ' + user.realname + ' it\'s nice to see you again';
+
+// Bad
+var welcomeMessage = 'Welcome to our system '+user.realname+' it\'s nice to see you again';
+```
+
 Boolean variables and functions should always be either `true` or `false`. Don't set it to `0`
 unless it's supposed to be a number.
 

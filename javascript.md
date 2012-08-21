@@ -14,7 +14,7 @@ stuffed in there."
 
 This is not religious problem! There is 4 space indentation. Use Spaces *not Tabs*
 The reason for this is that, there still is not a standard for the placement of tabstops.
-The use of spaces can produce a larger filesize, but is not significant over local networkis,
+The use of spaces can produce a larger filesize, but is not significant over local networks,
 and the difference is eliminated by minification.
 
 ### Semicolons 

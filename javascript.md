@@ -28,7 +28,7 @@ return
     ( 1 + 2 )
 // => undefined
 
-// Adding semicolon after ( 1 + 2 ) will not save you from the null
+// Adding semicolon after ( 1 + 2 ) will not save you from the undefined
 
 ```
 

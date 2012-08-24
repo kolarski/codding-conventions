@@ -341,6 +341,14 @@ if ( a == '' ) {
 }
 ```
 
+You should use: 
+``` javascript
+typeof my_var === 'undefined'
+```
+instead of 
+``` javascript
+my_var == undefined
+```
 Any non-trivial conditaion should be assigned to descriptive variable:
 
 ``` javascript

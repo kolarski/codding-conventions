@@ -67,6 +67,8 @@ var foo = "bar";
 
 Faster execution time and HTML uses double quotes.
 
+We sould use double quotes in *.jhtml files as many editors (Notepad++) does not render properly single quotes.
+
 ### Braces
 
 Opening braces go on the same line as the statement.

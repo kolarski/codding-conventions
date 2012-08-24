@@ -203,7 +203,7 @@ Class names (if they be called this way) should be capitalized using upper camel
 
 ``` javascript
 // Good
-var UserModel = function() {
+var UserModel = function () {
     // code
 }
 
@@ -234,14 +234,14 @@ Objects use traling commas and put short declarations on single line.
 ``` javascript
 // Good
 var object = {
-    'my method': function() { /* code */ }
+    'my method': function () { /* code */ }
     ,nice: 'a'
 };
 
 // Bad
-var object = { 'my method': function() { /* code */ }, nice: 'a' };
+var object = { 'my method': function () { /* code */ }, nice: 'a' };
 
-var object = { 'my method': function() { /* code */ },
+var object = { 'my method': function () { /* code */ },
                nice: 'a'
             };
 // and more ...
@@ -268,9 +268,9 @@ Use `self` to push current context to the closures.
 
 ```
 var a = {
-    b: function() {
+    b: function () {
         var self = this;
-        $('selector').click(function(event) {
+        $('selector').click(function (event) {
             self.c()
         });
     }   
@@ -280,7 +280,7 @@ var a = {
 Event callback should name event data variable as `event`, not `e` or anyother form.
 
 ``` javascript 
-$('selector').click(function(event) { 
+$('selector').click(function (event) { 
     console.log('clicked');
 });
 ```
@@ -403,7 +403,7 @@ will see your function.
 
 ``` javascript
 // Good
-objectOrSomething.on('end', function onDisconnect() {
+objectOrSomething.on('end', function onDisconnect () {
     console.log('User Disconnected');
 });
 ```
@@ -412,7 +412,7 @@ But don't nest this closers, else your code will become a mess.
 
 ``` javascript
 // Good
-setTimeout(function() {
+setTimeout(function () {
     user.connected( someCoolFunction );
 }, 1000);
 
@@ -421,8 +421,8 @@ var someCoolFunction = function () {
 }
 
 // Bad
-setTimeout(function() {
-    user.connected(function() {
+setTimeout(function () {
+    user.connected(function () {
         console.log('Connected');
     });
 }, 1000);
@@ -470,7 +470,7 @@ Single line comments
 // Good
 
 // This a comment for the function
-var awesome = function() {
+var awesome = function () {
     // code ...
 }
 
@@ -480,11 +480,11 @@ var dog = 'Rorger';
 
 // Bad
 
-var awesome = function() { // This a comment for the function
+var awesome = function () { // This a comment for the function
     // code ...
 }
 
-var awesome = function() {
+var awesome = function () {
     // This a comment for the function
     // code ...
 }
@@ -501,18 +501,18 @@ Multiline comments
 // Good
 
 /**
- * Function: subtract()
+ * Function: subtract ()
  */
 
-var subtract = function(a, b) {
+var subtract = function (a, b) {
     // code...
 }
 
 // Bad
 
-/* Function: subtract() */
+/* Function: subtract () */
 
-var subtract = function(a,b) {
+var subtract = function (a,b) {
     // code...
 }
 ```

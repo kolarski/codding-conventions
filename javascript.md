@@ -441,6 +441,7 @@ setTimeout(function () {
 Setters caouse more problems than solve. Getters are not bad, and are more free of side effects.
 
 ### Whitespace
+* There should be whitespace *before* and *after* any `+`, `-`, `/`, `*` and etc.
 * Each ; (semicolon) in the control part of a `for` statement should be followed with a space.
 * After `if`, `for`, `while` and any other operation there must be a space.
 * Whitespace should follow every , (comma).

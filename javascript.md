@@ -26,7 +26,7 @@ Semicolons are useless in JavaScript. All arguments that there are needed are po
 ``` javascript
 return 
     ( 1 + 2 )
-// => null
+// => undefined
 
 // Adding semicolon after ( 1 + 2 ) will not save you from the null
 
